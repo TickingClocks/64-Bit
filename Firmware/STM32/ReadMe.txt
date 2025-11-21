@@ -1,0 +1,1 @@
+Create your STM32CubeIDE workspace somewhere on your computer and import these projects into there. Git / Github is not intended to host the workspace folder and the associated metadata. Importing the project from your git clone will still keep the project documents where they need to be for git commit
