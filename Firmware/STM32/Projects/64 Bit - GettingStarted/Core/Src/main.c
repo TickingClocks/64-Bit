@@ -123,6 +123,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+	//simple blinky
+	HAL_GPIO_WritePin(GPIOB, led1_Pin, 1); //set LED HIGH
+	HAL_Delay(500); //delay
+	HAL_GPIO_WritePin(GPIOB, led1_Pin, 0); //set LED LOW
+	HAL_Delay(500); //delay
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
