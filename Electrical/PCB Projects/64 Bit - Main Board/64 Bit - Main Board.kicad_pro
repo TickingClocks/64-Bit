@@ -1004,7 +1004,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Kadin/Desktop/64 Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
+    "plot_directory": "C:/Users/Kadin/Desktop/Git Projects/64-Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
