@@ -1,0 +1,174 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3ab47579-c55e-4cf3-af0d-d55f8da82eb3")
+	(paper "A4")
+	(title_block
+		(title "Project Overview")
+		(date "2025-10-04")
+		(rev "1")
+		(company "Kadin Whiting")
+	)
+	(lib_symbols)
+	(text "6 Digit Nixie Clock \"64Bit\" - Display Board"
+		(exclude_from_sim no)
+		(at 119.38 22.352 0)
+		(effects
+			(font
+				(face "Georgia")
+				(size 6.35 6.35)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d796eaa7-2234-4923-9abe-829ef6d3e9ec")
+	)
+	(text "A project started in earnest September 2025\n\n64Bit comes from the fact that this clock is driven with shift registers. Between the 6 nixie digits, and \nindicators, 64 bits are sent from the microcontroller to the shift registers to create the display output\n\nOn this Display PCB is mounted 6 IN-12 Nixie tubes, and 6 INS-1 indicator Nixie bulbs. Each IN-12 has\n10 filaments. The indicator pairs between the tubes are controlled together. The INS-1 bulbs on the far\nleft end are individually contrllable.\n\nThe shift registers that control the nixie output are located on this PCB. There is a built in diode\nin the shift registers to prevent glowing of the tubes when they are supposed to be turned off.\n\nThis PCB passes the neopixel signal into the LED board. The LED board is mounted behind the Display\nPCB. It mounts an RGB LED behind each IN-12 Nixie Tube.\n\nThe loops for the safety circuit pass through this PCB. This ensures the high voltage power supply cannot\nturn on unless this board is plugged in.\n\nThe IN-12 Nixie tubes are plugged into this Display PCB via socket pins that are soldered to the PCB.\nThe INS-1 Nixie indicators are soldered directly to the PCB with a 3D printed base that controls \ninstallation height"
+		(exclude_from_sim no)
+		(at 23.368 68.58 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "f8b19e05-2deb-4aa5-be60-8478b3b1e0f4")
+	)
+	(sheet
+		(at 246.126 19.558)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b90c785-c221-43c1-b8ac-e82fc29f5ba3")
+		(property "Sheetname" "Nixie Tubes"
+			(at 246.126 18.8464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nixie Tubes.kicad_sch"
+			(at 246.126 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Display Board"
+				(path "/3ab47579-c55e-4cf3-af0d-d55f8da82eb3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 57.912)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52bdd79e-5cd5-409e-8898-d890668503d0")
+		(property "Sheetname" "Connectors"
+			(at 246.38 57.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 246.38 74.4986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Display Board"
+				(path "/3ab47579-c55e-4cf3-af0d-d55f8da82eb3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.634 38.862)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dea4c5fa-643d-402c-a6d6-4e528b38da88")
+		(property "Sheetname" "Nixie Control"
+			(at 246.634 38.1504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nixie Control.kicad_sch"
+			(at 246.634 55.4486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Display Board"
+				(path "/3ab47579-c55e-4cf3-af0d-d55f8da82eb3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

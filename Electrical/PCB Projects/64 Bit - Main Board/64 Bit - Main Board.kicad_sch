@@ -1,0 +1,346 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73161e56-98d3-4537-9d96-cedeeddf7c83")
+	(paper "A4")
+	(title_block
+		(title "Project Overview")
+		(date "2025-OCT-04")
+		(rev "1")
+		(company "Kadin Whiting")
+	)
+	(lib_symbols)
+	(text "A project started in earnest September 2025\n\n64Bit comes from the fact that this clock is driven with shift registers. Between the 6 nixie digits, and \nindicators, 64 bits are sent from the microcontroller to the shift registers to create the display output\n\nThis is an STM32F446 based project. \n\nThe clock time keeping is handled via a Real Time Clock (RTC) communicated with via I2C. The STM32 also has \nan on-board RTC that can be utilized. Both RTCs have a battery backup via a replaceable 2032 coin cell.\n\nThe interface with the clock is via a rotory encoder with a push button. Interfacing with remote capacitive\nbuttons is possible via connectors on the bottom of the Driver Board.\n\nThere is a full-color LCD display using driving chip ST7789V2. Communication occurs via SPI.\n\nThis clock was designed with safety in mind. There is a dedicated safety circuit that cuts the input and output \nconnections of the high voltage power supply via relays. There are connectors for interfacing external spring pin \nconnections to the cover of the clock, ensuring the high voltage power supply is not on while the lid is off. The \nsafety circuit features dual channels and feedback to the microcontroller. With the spring pin feature, it will \nprovide isolation from the high voltage, even in an event where the microcontroller experiences an error.\n\nThe power design of the clock relys on simple components. There are two inputs available to power the clock. A \nUSB-C port and a 12V barrel jack. A boost converter utilizing XL6009 converts (boost) the incoming voltage to 12VDC. \nThen an LDO creates 5V then another LDO, in series, creates 3.3V. The high voltage power supply typically is \nset to output 170VDC to 180VDC. It is supplied by a power supply module that sources 12V power.\n\nThis driver board interfacese with the display board PCB via right angle board-to-board connectors. Mounted to the \nback of the display board is an LED board to provide RGB backlighting to each IN-12 Nixie Tubes.\n\nThe circuit boards will be mounted to a 3D printed base via brass standoffs. Overtop of the PCBs will be a glass \ntop. The glass top will have sections where copper tape is applied. Spring pins contact the copper tape to pass \nconnections for the safety circuit. "
+		(exclude_from_sim no)
+		(at 28.194 92.71 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "0d91e1d3-94a3-4902-bc47-b77772c292d2")
+	)
+	(text "6 Digit Nixie Clock \"64Bit\" - Driver Board"
+		(exclude_from_sim no)
+		(at 122.428 25.4 0)
+		(effects
+			(font
+				(face "Georgia")
+				(size 6.35 6.35)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "35b2912c-ea27-4e16-badc-4d544c4b16d1")
+	)
+	(sheet
+		(at 247.65 76.2)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ce0b6a1-6b30-4e36-a2af-ce63c0bd2c79")
+		(property "Sheetname" "Safety Circuit"
+			(at 247.65 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Safety Circuit.kicad_sch"
+			(at 247.65 92.7866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 137.16)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c24347a-3ec2-4d5e-b79f-deb961ca857e")
+		(property "Sheetname" "Connectors 2"
+			(at 247.65 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors 2.kicad_sch"
+			(at 247.65 153.7466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 15.748)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ce9b68e-1685-4f8b-b727-c305a682cdf8")
+		(property "Sheetname" "STM32 MCU"
+			(at 247.65 15.0364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32 MCU.kicad_sch"
+			(at 247.65 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 96.52)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d230c8e9-bc78-48f7-a579-f021f0b93c5c")
+		(property "Sheetname" "Power"
+			(at 247.65 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 247.65 113.1066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 116.84)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3f908fb-0a45-4c28-adc2-6e62e6841a0d")
+		(property "Sheetname" "Connectors"
+			(at 247.65 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 247.65 133.4266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 55.88)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcae4d37-3dbd-452d-a279-384b0626601b")
+		(property "Sheetname" "Interface"
+			(at 247.65 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 247.65 72.4666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 35.56)
+		(size 33.528 16.002)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1e1eea0-e4d2-4f01-b6f6-21e988f53299")
+		(property "Sheetname" "I2C"
+			(at 247.65 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C.kicad_sch"
+			(at 247.65 52.1466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

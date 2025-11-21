@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "G:/My Drive/Projects (GDrive)/31_My First Nixie Clock/01_My First Nixie Clock/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "NixieClockLib")(type "KiCad")(uri "${KIPRJMOD}/NixieClockLib.kicad_sym")(options "")(descr ""))
+)
