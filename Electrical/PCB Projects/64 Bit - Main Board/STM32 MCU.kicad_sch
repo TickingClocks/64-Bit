@@ -3225,6 +3225,18 @@
 		)
 		(uuid "830b7737-bbfd-4e47-9e01-2856b2af7e7e")
 	)
+	(text "ADC3 input 11"
+		(exclude_from_sim no)
+		(at 130.048 76.962 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.1905)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e759a80-a328-46c0-8693-05bbf5801de3")
+	)
 	(text "neopixel (TIM8)"
 		(exclude_from_sim no)
 		(at 107.188 90.678 0)
@@ -3460,10 +3472,6 @@
 	(no_connect
 		(at 143.51 91.44)
 		(uuid "3f5b1d30-2b35-4fa9-af6f-76af9dc89586")
-	)
-	(no_connect
-		(at 143.51 73.66)
-		(uuid "5659a3a1-ce2e-4ee1-ae4a-dbd6b997b477")
 	)
 	(no_connect
 		(at 179.07 66.04)
@@ -4127,6 +4135,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c4c110-e594-48cc-9505-e967d55b62f3")
+	)
+	(wire
+		(pts
 			(xy 125.73 111.76) (xy 143.51 111.76)
 		)
 		(stroke
@@ -4314,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "b1d36e8e-036d-40e9-b2f7-17994d0c923e")
-	)
-	(wire
-		(pts
-			(xy 137.16 76.2) (xy 143.51 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d2cd2a-917a-4690-9bbe-b6c3c4309623")
 	)
 	(wire
 		(pts
@@ -5492,28 +5500,6 @@
 			)
 		)
 	)
-	(global_label "IO6"
-		(shape bidirectional)
-		(at 137.16 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40364e4f-dece-4fac-ab85-b323de731ef4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.9187 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO5"
 		(shape output)
 		(at 182.88 111.76 0)
@@ -5972,6 +5958,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO6"
+		(shape bidirectional)
+		(at 137.16 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf345804-d6af-42f0-9159-d2da4f3163ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9187 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

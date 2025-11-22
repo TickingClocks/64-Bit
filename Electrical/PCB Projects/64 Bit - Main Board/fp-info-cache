@@ -1,4 +1,4 @@
-26690906562330965
+26694434028382968
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61642,6 +61642,13 @@ Integrated Circuit
 4
 4
 Footprint drive Dump 1
+CR1216MFRFH
+CR1216 MFR FH-3
+Battery
+0
+2
+2
+Footprint drive Dump 1
 CR2030_HLDR
 BAT-HLD-001
 Undefined or Miscellaneous
@@ -61669,6 +61676,13 @@ Integrated Circuit
 0
 7
 7
+Footprint drive Dump 1
+ESP32-C6-LCD-1.47
+
+
+0
+18
+18
 Footprint drive Dump 1
 IN-12
 
