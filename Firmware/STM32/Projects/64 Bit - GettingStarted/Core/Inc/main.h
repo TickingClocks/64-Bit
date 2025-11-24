@@ -61,6 +61,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define IO4_Pin GPIO_PIN_13
 #define IO4_GPIO_Port GPIOC
+#define IO6_Pin GPIO_PIN_1
+#define IO6_GPIO_Port GPIOC
+#define IO7_Pin GPIO_PIN_2
+#define IO7_GPIO_Port GPIOC
+#define IO8_Pin GPIO_PIN_3
+#define IO8_GPIO_Port GPIOC
 #define button_encoder_Pin GPIO_PIN_2
 #define button_encoder_GPIO_Port GPIOA
 #define safetyStatus1_Pin GPIO_PIN_0

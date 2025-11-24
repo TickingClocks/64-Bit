@@ -2964,6 +2964,19 @@
 		(uuid 570563e4-e6ea-4c7d-b031-6c44c48a4285)
 	)
 	(rectangle
+		(start 107.9499 71.12)
+		(end 139.4459 74.8783)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 73 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66e508ad-fbaa-4aba-a62d-dbcc0a65bc8a)
+	)
+	(rectangle
 		(start 181.61 57.15)
 		(end 213.106 62.23)
 		(stroke
@@ -3029,7 +3042,7 @@
 		(uuid afee8a05-9653-49dd-b74a-6001d43f31da)
 	)
 	(rectangle
-		(start 107.95 73.66)
+		(start 107.95 74.93)
 		(end 139.446 85.09)
 		(stroke
 			(width 0)
@@ -3107,7 +3120,7 @@
 	)
 	(text "free GPIO"
 		(exclude_from_sim no)
-		(at 107.188 76.2 0)
+		(at 107.188 77.724 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3227,7 +3240,7 @@
 	)
 	(text "ADC3 input 11"
 		(exclude_from_sim no)
-		(at 130.048 76.962 0)
+		(at 129.794 77.724 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3320,6 +3333,18 @@
 			(justify left bottom)
 		)
 		(uuid "c19d90a1-e7e8-494a-b452-1d75aa75665b")
+	)
+	(text "ambient light sensing"
+		(exclude_from_sim no)
+		(at 107.442 72.898 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.1905)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1860a3c-5a67-4260-9be9-379996c0b085")
 	)
 	(text "main crystal"
 		(exclude_from_sim no)
@@ -4425,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff38e92-ab04-4bba-9321-7b0ac0e5be15")
+	)
+	(wire
+		(pts
 			(xy 203.2 146.05) (xy 191.77 146.05)
 		)
 		(stroke
@@ -5496,6 +5531,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "photoResistor"
+		(shape output)
+		(at 137.16 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "473e1560-213a-4db8-846d-88b2c57734c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.1726 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

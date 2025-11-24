@@ -1906,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 179.07) (xy 115.57 182.88)
+			(xy 118.11 179.07) (xy 118.11 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2086,16 +2086,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 179.07) (xy 128.27 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3987f708-e3ef-45ae-8963-521c14e10114")
-	)
-	(wire
-		(pts
 			(xy 62.23 67.31) (xy 64.77 67.31)
 		)
 		(stroke
@@ -2103,16 +2093,6 @@
 			(type default)
 		)
 		(uuid "466ca83a-d6c5-443e-8694-da89a5810142")
-	)
-	(wire
-		(pts
-			(xy 128.27 168.91) (xy 128.27 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471c2e90-39ea-4dfa-b120-1e7329bbc58b")
 	)
 	(wire
 		(pts
@@ -2203,16 +2183,6 @@
 			(type default)
 		)
 		(uuid "5f0acd7e-212f-44a8-9861-16563430be7f")
-	)
-	(wire
-		(pts
-			(xy 121.92 168.91) (xy 121.92 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6049c7ef-79c1-43db-9fb6-5ac73a7f60d8")
 	)
 	(wire
 		(pts
@@ -2626,16 +2596,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 179.07) (xy 121.92 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8624861-8356-44b4-80ae-7a9c6251ec4e")
-	)
-	(wire
-		(pts
 			(xy 64.77 49.53) (xy 59.69 49.53)
 		)
 		(stroke
@@ -2646,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 168.91) (xy 115.57 171.45)
+			(xy 118.11 168.91) (xy 118.11 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 168.91) (xy 134.62 171.45)
+			(xy 124.46 168.91) (xy 124.46 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 179.07) (xy 134.62 182.88)
+			(xy 124.46 179.07) (xy 124.46 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4636,28 +4596,6 @@
 			)
 		)
 	)
-	(global_label "SDA_5V"
-		(shape bidirectional)
-		(at 121.92 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49764162-7b79-4727-8a80-0a3b530987b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 157.9797 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO2"
 		(shape bidirectional)
 		(at 111.76 137.16 90)
@@ -4702,28 +4640,6 @@
 			)
 		)
 	)
-	(global_label "SCL_5V"
-		(shape bidirectional)
-		(at 128.27 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51b10798-0aa3-405f-9971-cb9516fa9e13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 158.0402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO3"
 		(shape bidirectional)
 		(at 87.63 64.77 0)
@@ -4748,7 +4664,7 @@
 	)
 	(global_label "SDA_5V"
 		(shape bidirectional)
-		(at 115.57 168.91 90)
+		(at 118.11 168.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4758,7 +4674,7 @@
 		)
 		(uuid "78223c4e-91f8-46ca-b0d7-8508f58d9803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 157.9797 90)
+			(at 118.11 157.9797 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4796,7 @@
 	)
 	(global_label "SCL_5V"
 		(shape bidirectional)
-		(at 134.62 168.91 90)
+		(at 124.46 168.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4890,7 +4806,7 @@
 		)
 		(uuid "ea19d604-5dcf-4fcf-bd50-539b8deb8cf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 158.0402 90)
+			(at 124.46 158.0402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5082,7 @@
 	)
 	(symbol
 		(lib_id "HDD_CLK_V6.0:CG0603MLC-05LE")
-		(at 115.57 175.26 90)
+		(at 118.11 175.26 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5174,7 +5090,7 @@
 		(dnp no)
 		(uuid "0502b936-9a74-43cd-af50-c138ce67ba3f")
 		(property "Reference" "D43"
-			(at 112.522 173.99 0)
+			(at 115.062 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5099,7 @@
 			)
 		)
 		(property "Value" "TVS_0603"
-			(at 118.618 170.688 0)
+			(at 121.158 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 115.57 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,72 +5546,6 @@
 			(project "64 Bit - My First Nixie Clock"
 				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
 					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "213233bd-8f03-42cc-91da-9d838d8d609f")
-		(property "Reference" "#PWR0170"
-			(at 128.27 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.302 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4950b3de-421a-4b48-8d40-925be409ef1b")
-		)
-		(instances
-			(project "64 Bit - My First Nixie Clock"
-				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -7937,73 +7787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b181b704-b625-458f-87f1-e3700a669554")
-		(property "Reference" "#PWR0169"
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.952 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44c299c6-b467-46d0-9b00-23cb8091bdd1")
-		)
-		(instances
-			(project "64 Bit - My First Nixie Clock"
-				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 182.88 0)
+		(at 124.46 182.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8012,7 +7796,7 @@
 		(dnp no)
 		(uuid "b3598d0e-b00a-4598-b73f-b7280fd76688")
 		(property "Reference" "#PWR0171"
-			(at 134.62 189.23 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +7805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.652 186.69 0)
+			(at 126.492 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +7814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 182.88 0)
+			(at 124.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +7823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 182.88 0)
+			(at 124.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +7832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 182.88 0)
+			(at 124.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,76 +8043,6 @@
 			(project "64 Bit - My First Nixie Clock"
 				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
 					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HDD_CLK_V6.0:CG0603MLC-05LE")
-		(at 128.27 175.26 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b72a0b5a-437e-4f5a-96d2-e574c6267434")
-		(property "Reference" "D45"
-			(at 125.222 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS_0603"
-			(at 131.318 170.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a5d561e-2239-451d-8da2-727f09298984")
-		)
-		(pin "2"
-			(uuid "2f2c78b3-171a-4e5a-8cfa-1e1a35c9f9bf")
-		)
-		(instances
-			(project "64 Bit - My First Nixie Clock"
-				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
-					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -8937,7 +8651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 182.88 0)
+		(at 118.11 182.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8946,7 +8660,7 @@
 		(dnp no)
 		(uuid "e94c9be3-fb47-441e-9dc9-6ff3c5145331")
 		(property "Reference" "#PWR0168"
-			(at 115.57 189.23 0)
+			(at 118.11 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +8669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.602 186.69 0)
+			(at 120.142 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 182.88 0)
+			(at 118.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +8687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 182.88 0)
+			(at 118.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +8696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 182.88 0)
+			(at 118.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,77 +8783,7 @@
 	)
 	(symbol
 		(lib_id "HDD_CLK_V6.0:CG0603MLC-05LE")
-		(at 121.92 175.26 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f89c80b7-8743-4c09-aec6-e51ccf3696c7")
-		(property "Reference" "D44"
-			(at 118.872 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS_0603"
-			(at 124.968 170.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.92 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a09041-fbbb-475c-9517-41763836bcd5")
-		)
-		(pin "2"
-			(uuid "8b0626ce-df9e-4260-87dd-1e159053623f")
-		)
-		(instances
-			(project "64 Bit - My First Nixie Clock"
-				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/6c24347a-3ec2-4d5e-b79f-deb961ca857e"
-					(reference "D44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HDD_CLK_V6.0:CG0603MLC-05LE")
-		(at 134.62 175.26 90)
+		(at 124.46 175.26 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9147,7 +8791,7 @@
 		(dnp no)
 		(uuid "fa8d9b22-0508-4d06-9cc4-dbe82047ddc7")
 		(property "Reference" "D46"
-			(at 131.572 173.99 0)
+			(at 121.412 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +8800,7 @@
 			)
 		)
 		(property "Value" "TVS_0603"
-			(at 137.668 170.688 0)
+			(at 127.508 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +8809,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 175.26 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +8818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 175.26 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +8827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 175.26 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

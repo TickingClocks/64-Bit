@@ -150,6 +150,205 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Photo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Photo"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photoresistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable light sensitive opto LDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LDR* R?LDR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Photo_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -4.064 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -4.064 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Photo_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -965,6 +1164,19 @@
 		)
 		(uuid 3a038af8-0182-4bbf-91a3-707ec14b2628)
 	)
+	(rectangle
+		(start 74.93 142.24)
+		(end 116.84 166.37)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 73 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c03d7df9-c538-41eb-a7f6-7c09b7178b4d)
+	)
 	(text "right-angle encoder 24 pulses/rotation\nintegrated momentary button\nlow pass filters included"
 		(exclude_from_sim no)
 		(at 184.15 72.39 0)
@@ -976,6 +1188,18 @@
 			(justify right bottom)
 		)
 		(uuid "134373c0-1c81-46fe-a78e-c68eb2c9c01c")
+	)
+	(text "photoresistor\nambient light sensing"
+		(exclude_from_sim no)
+		(at 74.93 141.478 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+		(uuid "62287166-c988-4bb6-b23d-b0de5adebc6b")
 	)
 	(text "rotary encoder with push button"
 		(exclude_from_sim no)
@@ -1030,6 +1254,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eb7203e-d3f3-4617-90a2-903e740d37a3")
+	)
+	(junction
+		(at 95.25 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af6d21fa-1a92-4f49-a931-24637ddba9c5")
 	)
 	(junction
 		(at 212.09 101.6)
@@ -1117,6 +1347,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 154.94) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d31ccf-b169-4b71-b0eb-c6fee0ed2fd7")
+	)
+	(wire
+		(pts
 			(xy 209.55 101.6) (xy 212.09 101.6)
 		)
 		(stroke
@@ -1187,6 +1427,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30597ff2-d221-4bd2-ac60-eae887a95ed8")
+	)
+	(wire
+		(pts
 			(xy 111.76 104.14) (xy 114.3 104.14)
 		)
 		(stroke
@@ -1204,6 +1454,16 @@
 			(type default)
 		)
 		(uuid "3d6c53fe-ee8b-4e57-b392-28f8c09e4a42")
+	)
+	(wire
+		(pts
+			(xy 78.74 154.94) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4701aee6-9265-4c98-8645-12c8b20f00ab")
 	)
 	(wire
 		(pts
@@ -1257,6 +1517,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 154.94) (xy 78.74 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72762c8f-b19b-446e-a699-30f2bf153de0")
+	)
+	(wire
+		(pts
 			(xy 100.33 104.14) (xy 111.76 104.14)
 		)
 		(stroke
@@ -1274,6 +1544,16 @@
 			(type default)
 		)
 		(uuid "89eff04e-47de-43cf-8884-11bb1017d316")
+	)
+	(wire
+		(pts
+			(xy 95.25 160.02) (xy 95.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96212442-36f2-4c6b-a9a7-ea088bc45fdd")
 	)
 	(wire
 		(pts
@@ -1314,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "aea1cba5-95ff-4537-9d3b-cfe87479786d")
+	)
+	(wire
+		(pts
+			(xy 91.44 154.94) (xy 95.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cb2a76-870d-4bab-b908-5279e9be858d")
 	)
 	(wire
 		(pts
@@ -1404,6 +1694,26 @@
 			(type default)
 		)
 		(uuid "e3ca5575-8109-4ca1-a372-5a6cb5a39f8a")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41cb1a9-9109-41fd-9835-609cddcdbf3e")
+	)
+	(wire
+		(pts
+			(xy 96.52 160.02) (xy 95.25 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4410e94-8869-4658-874a-f723232864e5")
 	)
 	(wire
 		(pts
@@ -4244,6 +4554,28 @@
 			)
 		)
 	)
+	(global_label "photoResistor"
+		(shape output)
+		(at 96.52 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "385ed212-5f60-4510-b7bf-d1de598e9cb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.5074 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "encoder_button"
 		(shape input)
 		(at 95.25 104.14 180)
@@ -4763,6 +5095,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a3015d2-8f88-496c-8920-6fa490153fe2")
+		(property "Reference" "#PWR0169"
+			(at 78.74 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.708 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72931cc4-c229-42c9-8603-9165ad2ed66d")
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/dcae4d37-3dbd-452d-a279-384b0626601b"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 140.716 96.52 90)
 		(unit 1)
@@ -5228,6 +5625,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Photo")
+		(at 102.87 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0b25f7-c207-45e5-b95f-375804e0ace4")
+		(property "Reference" "R80"
+			(at 102.87 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Photo"
+			(at 102.87 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
+			(at 96.52 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photoresistor"
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410749fe-07ef-42cf-8b06-e858816a9c15")
+		)
+		(pin "2"
+			(uuid "748ece9b-c593-47b8-a67f-de1733533ed0")
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/dcae4d37-3dbd-452d-a279-384b0626601b"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HDD_CLK_V6.0:CG0603MLC-05LE")
 		(at 124.46 111.76 90)
 		(unit 1)
@@ -5432,6 +5898,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecefc11-634a-4165-b512-9f810059651e")
+		(property "Reference" "#PWR0170"
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 147.5255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c841b7-21fb-4185-bf98-905def65c9bc")
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/dcae4d37-3dbd-452d-a279-384b0626601b"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 121.92 0)
 		(unit 1)
@@ -5491,6 +6022,72 @@
 			(project "64 Bit - My First Nixie Clock"
 				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/dcae4d37-3dbd-452d-a279-384b0626601b"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc948bcc-919b-4860-af28-e0bcc2b765b1")
+		(property "Reference" "R81"
+			(at 87.63 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kohm_0603"
+			(at 87.63 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 87.884 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "553605d2-dc01-42c0-9cf2-e01350f81eea")
+		)
+		(pin "2"
+			(uuid "18252e62-b3d1-4177-9568-a7dba9df6452")
+		)
+		(instances
+			(project "64 Bit - Main Board"
+				(path "/73161e56-98d3-4537-9d96-cedeeddf7c83/dcae4d37-3dbd-452d-a279-384b0626601b"
+					(reference "R81")
 					(unit 1)
 				)
 			)
