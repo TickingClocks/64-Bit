@@ -1,4 +1,4 @@
-26690906562330965
+26726209115250681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61565,6 +61565,27 @@ emi filter
 5
 5
 Footprint drive Dump 1
+694106301002
+694106301002
+Connector
+0
+3
+3
+Footprint drive Dump 1
+3mm_MH
+
+
+0
+1
+1
+Footprint drive Dump 1
+10mm_pannel_button
+
+
+0
+5
+3
+Footprint drive Dump 1
 24LC64F-ISN
 SN
 Integrated Circuit
@@ -61586,12 +61607,26 @@ Integrated Circuit
 8
 8
 Footprint drive Dump 1
+100SP1T1B4M2QE
+100SP1T1B4M2QE
+Switch
+0
+3
+3
+Footprint drive Dump 1
 240x280 LCD
 
 
 0
 22
 10
+Footprint drive Dump 1
+1711725
+1711725
+Connector
+0
+2
+2
 Footprint drive Dump 1
 1985195
 1985195
@@ -61614,6 +61649,13 @@ Connector
 12
 12
 Footprint drive Dump 1
+2002112100014C8LF
+20021121-00014C8LF-2
+Connector
+0
+14
+14
+Footprint drive Dump 1
 61301021021
 61301021021
 Connector
@@ -61628,6 +61670,20 @@ Connector
 10
 10
 Footprint drive Dump 1
+865080553014
+WCAP-ASLI (8 x 10.5)
+Capacitor Polarised
+0
+2
+2
+Footprint drive Dump 1
+AZ1084CD-3.3TRG1
+TO252 (Type CJ)_2024-3
+Integrated Circuit
+0
+3
+3
+Footprint drive Dump 1
 AZ1117CH2-3.3TRG1
 AZ1117CH2-3.3TRG1
 Integrated Circuit
@@ -61641,6 +61697,13 @@ Integrated Circuit
 0
 4
 4
+Footprint drive Dump 1
+CR1216MFRFH
+CR1216 MFR FH-3
+Battery
+0
+2
+2
 Footprint drive Dump 1
 CR2030_HLDR
 BAT-HLD-001
@@ -61663,12 +61726,40 @@ Crystal or Oscillator
 4
 4
 Footprint drive Dump 1
+EN12-HS22AF20
+EN12-HS22AF20-1
+Undefined or Miscellaneous
+0
+7
+6
+Footprint drive Dump 1
 EN12-VS20AF20
 EN12-VS20AF20-1
 Integrated Circuit
 0
 7
 7
+Footprint drive Dump 1
+ESP32-C6-LCD-1.47
+
+
+0
+18
+18
+Footprint drive Dump 1
+ESP32-S3-AMOLED-1.91-M
+
+
+0
+40
+40
+Footprint drive Dump 1
+ESP32-S3-Touch-AMOLED-1.43
+20021121-00014C8LF-2
+Connector
+0
+32
+29
 Footprint drive Dump 1
 IN-12
 
@@ -61698,6 +61789,13 @@ Switch
 3
 3
 Footprint drive Dump 1
+LM2596_Module(43mmx21mm)
+
+
+0
+4
+4
+Footprint drive Dump 1
 M3 Standoff Footprint
 
 
@@ -61705,12 +61803,33 @@ M3 Standoff Footprint
 1
 1
 Footprint drive Dump 1
+M20-7920242R
+M20-7920242R-4
+Connector
+0
+4
+4
+Footprint drive Dump 1
 M207920242R
 M20-7920242R-4
 Connector
 0
 4
 4
+Footprint drive Dump 1
+NCT175DMR2G
+MICRO8 CASE 846A-02 ISSUE H
+Integrated Circuit
+0
+8
+8
+Footprint drive Dump 1
+P110KH1-1Y15BR10K
+P110KH1-1Y15BR10K-2
+Variable Resistor
+0
+6
+6
 Footprint drive Dump 1
 PCA9306
 DCU (R-PDSO-G8)
@@ -61740,6 +61859,20 @@ Schottky Diode
 2
 2
 Footprint drive Dump 1
+TMC2209_Module_SMT
+surface-mounted straight socket strip, 1x08, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x08 2.54mm single row style1 pin1 left
+0
+16
+16
+Footprint drive Dump 1
+TMC2209_Module_TH
+
+
+0
+16
+16
+Footprint drive Dump 1
 TPIC6B595DWR
 TPIC6B595DWR
 Integrated Circuit
@@ -61761,12 +61894,12 @@ Untitled
 0
 0
 Footprint drive Dump 1
-Untitled_1
-
-
+VEML7700
+VEML7700
+Integrated Circuit
 0
-0
-0
+4
+4
 Footprint drive Dump 1
 XL6009_Module(43mmx21mm)
 
@@ -61781,6 +61914,13 @@ Integrated Circuit
 0
 3
 3
+Footprint drive Dump 1
+crystal_gnd24
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
 Footprint drive Dump 1
 hv_psu
 

@@ -141,7 +141,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "G:/My Drive/Projects (GDrive)/31_My First Nixie Clock/01_My First Nixie Clock/PCB Plots/Display Board/Gerber Files/")
+			(outputdirectory "C:/Users/Kadin/Desktop/Git Projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/gerbers/")
 		)
 	)
 	(net 0 "")
@@ -680,7 +680,7 @@
 		(property "Reference" "T7"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9eba786f-9953-4dbc-9c4d-289069dfa29c")
 			(effects
 				(font
@@ -759,7 +759,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "832ae24a-19e3-43da-a8c5-baba59dd1081")
 		)
 		(fp_text user "${REFERENCE}"
@@ -1202,7 +1202,7 @@
 		(property "Reference" "T4"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "11573c87-9414-48fd-aef6-05816382d884")
 			(effects
 				(font
@@ -1281,7 +1281,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4e434693-cc4a-4eea-ba35-6617095f1347")
 		)
 		(fp_text user "${REFERENCE}"
@@ -1804,7 +1804,7 @@
 		(property "Reference" "T11"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "79dc4498-ac10-4c6c-b1cf-e1c805285e52")
 			(effects
 				(font
@@ -1883,7 +1883,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "958264e5-7d75-41ec-b96f-8989869245e2")
 		)
 		(fp_text user "${REFERENCE}"
@@ -2171,7 +2171,7 @@
 		(property "Reference" "T8"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "16bcfc9a-e71a-427d-9c6e-4f27c2d3cb9c")
 			(effects
 				(font
@@ -2250,7 +2250,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "03dec677-ae83-4a73-af0b-873a632a2fdc")
 		)
 		(fp_text user "${REFERENCE}"
@@ -2307,7 +2307,7 @@
 		(property "Reference" "T12"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fe59cf85-3d6d-4a74-8ebe-869a1bee4886")
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "409b9900-bd09-48f7-9adf-1978bb1c41be")
 		)
 		(fp_text user "${REFERENCE}"
@@ -5661,7 +5661,7 @@
 		(property "Reference" "T3"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ef103d3a-afeb-4686-987d-cba7b1b71ac4")
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "737f6e69-ff57-4608-b59b-e8c1271f6630")
 		)
 		(fp_text user "${REFERENCE}"
@@ -15571,7 +15571,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "'64 Bit' Nixie Tube Clock - Display Board_V1.0 Oct 2025"
+	(gr_text "'64 Bit' Nixie Tube Clock - Display Board_V1.0 Dec 2025"
 		(at 96.9 120.9 0)
 		(layer "F.Mask")
 		(uuid "583f7357-50b5-4ec8-8bd2-046bca51a2fa")

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Project Overview")
-		(date "2025-10-04")
+		(date "2025-12-01")
 		(rev "1")
 		(company "Kadin Whiting")
 	)
@@ -24,7 +24,7 @@
 		)
 		(uuid "d796eaa7-2234-4923-9abe-829ef6d3e9ec")
 	)
-	(text "A project started in earnest September 2025\n\n64Bit comes from the fact that this clock is driven with shift registers. Between the 6 nixie digits, and \nindicators, 64 bits are sent from the microcontroller to the shift registers to create the display output\n\nOn this Display PCB is mounted 6 IN-12 Nixie tubes, and 6 INS-1 indicator Nixie bulbs. Each IN-12 has\n10 filaments. The indicator pairs between the tubes are controlled together. The INS-1 bulbs on the far\nleft end are individually contrllable.\n\nThe shift registers that control the nixie output are located on this PCB. There is a built in diode\nin the shift registers to prevent glowing of the tubes when they are supposed to be turned off.\n\nThis PCB passes the neopixel signal into the LED board. The LED board is mounted behind the Display\nPCB. It mounts an RGB LED behind each IN-12 Nixie Tube.\n\nThe loops for the safety circuit pass through this PCB. This ensures the high voltage power supply cannot\nturn on unless this board is plugged in.\n\nThe IN-12 Nixie tubes are plugged into this Display PCB via socket pins that are soldered to the PCB.\nThe INS-1 Nixie indicators are soldered directly to the PCB with a 3D printed base that controls \ninstallation height"
+	(text "64Bit comes from the fact that this clock is driven with shift registers. Between the 6 nixie digits, and \nindicators, 64 bits are sent from the microcontroller to the shift registers to create the display output\n\nOn this Display PCB is mounted 6 IN-12 Nixie tubes, and 6 INS-1 indicator Nixie bulbs. Each IN-12 has\n10 filaments. The indicator pairs between the tubes are controlled together. The INS-1 bulbs on the far\nleft end are individually contrllable.\n\nThe shift registers that control the nixie output are located on this PCB. There is a built in diode\nin the shift registers to prevent glowing of the tubes when they are supposed to be turned off.\n\nThis PCB passes the neopixel signal into the LED board. The LED board is mounted behind the Display\nPCB. It mounts an RGB LED behind each IN-12 Nixie Tube.\n\nThe loops for the safety circuit pass through this PCB. This ensures the high voltage power supply cannot\nturn on unless this board is plugged in.\n\nThe IN-12 Nixie tubes are plugged into this Display PCB via socket pins that are soldered to the PCB.\nThe INS-1 Nixie indicators are soldered directly to the PCB with a 3D printed base that controls \ninstallation height"
 		(exclude_from_sim no)
 		(at 23.368 68.58 0)
 		(effects

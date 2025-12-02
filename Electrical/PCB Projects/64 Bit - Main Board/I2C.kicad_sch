@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RTC & RTC Level Shifting")
-		(date "2025-OCT-04")
+		(date "2025-12-01")
 		(rev "1")
 		(company "Kadin Whiting")
 	)
@@ -2209,7 +2209,7 @@
 	)
 	(rectangle
 		(start 59.69 58.674)
-		(end 159.766 135.382)
+		(end 159.766 139.7)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2257,9 +2257,9 @@
 		)
 		(uuid "7a7e637e-f229-46fe-b8df-34530dd0ce0d")
 	)
-	(text "Devices connected:\nRTC     1101000\nEEPROM 1010000"
+	(text "Devices connected:\nRTC     1101000\nEEPROM 1010000\nLight sensor xxxxxx"
 		(exclude_from_sim no)
-		(at 132.588 133.604 0)
+		(at 132.588 136.398 0)
 		(effects
 			(font
 				(size 1.5 1.5)
