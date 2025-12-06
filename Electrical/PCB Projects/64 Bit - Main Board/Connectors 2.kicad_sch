@@ -1577,7 +1577,7 @@
 	)
 	(text "5V I2C breakout"
 		(exclude_from_sim no)
-		(at 57.912 140.716 90)
+		(at 56.642 140.716 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1727,7 +1727,7 @@
 		(uuid "3316b70c-853b-457a-bd73-c9ce733db76f")
 	)
 	(junction
-		(at 59.69 121.92)
+		(at 58.42 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3521d255-d67c-45f2-bfe2-207f53d07912")
@@ -2066,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 121.92) (xy 64.77 121.92)
+			(xy 58.42 121.92) (xy 64.77 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 138.43) (xy 59.69 121.92)
+			(xy 58.42 138.43) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 121.92) (xy 59.69 118.11)
+			(xy 58.42 121.92) (xy 58.42 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 138.43) (xy 59.69 138.43)
+			(xy 64.77 138.43) (xy 58.42 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7591,7 +7591,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 118.11 0)
+		(at 58.42 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7599,7 +7599,7 @@
 		(dnp no)
 		(uuid "a23929c3-68b5-498a-a451-6595e4851c0f")
 		(property "Reference" "#PWR0151"
-			(at 59.69 121.92 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7608,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 59.69 114.046 0)
+			(at 58.42 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 118.11 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 118.11 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 118.11 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

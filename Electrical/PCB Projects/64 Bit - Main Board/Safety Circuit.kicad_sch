@@ -6342,7 +6342,7 @@
 			)
 		)
 		(property "Value" "10kohm_0603"
-			(at 113.03 132.334 90)
+			(at 113.284 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9380,7 @@
 			)
 		)
 		(property "Value" "10kohm_0603"
-			(at 120.65 132.334 90)
+			(at 120.65 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)

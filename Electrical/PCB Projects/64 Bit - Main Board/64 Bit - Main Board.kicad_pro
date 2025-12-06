@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -84,10 +84,6 @@
           ""
         ],
         [
-          "lib_footprint_issues|65900000|132300000|0a015e2b-c535-4eb6-8dee-8cd090bb2626|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|147200000|100304750|202495b8-aad6-472b-add9-783b1a3b5758|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -100,23 +96,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|152000000|61770000|2212418b-aa03-42b7-a1d8-1993be7ed0ec|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|152537500|76737500|3a1f84aa-e372-4ba0-b8ff-e6de7b84ee53|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|169202500|105325000|46401eee-9c26-4aba-925a-c28b273528b1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|178750000|91000000|e2f01e31-44ea-44a3-8e1f-f8c3b9574e50|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|193400000|118700000|736d8e4e-e3fa-4d3b-9daf-7738ce183cf0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -128,35 +112,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|212040000|61770000|9ce64c5a-7b34-4ede-b0c7-e22481991777|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|215155000|78135000|6e44ae7b-752f-44eb-8f40-f71d652de172|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|226607500|128600000|e8b8c707-1d91-402f-b657-b8c734101a76|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|226653300|113029800|84c54d04-f7a6-4bfb-bbff-f8171071c5a9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|230405000|44793500|437fccfe-1b2e-4cb3-a13b-368cf8b229a4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|231750000|80500000|68c83c72-1f0f-4356-bc8d-9f4d9da13462|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|233080000|83590000|e5dd79c3-5f1d-4516-98d4-c25eb52ab5b3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|254850000|116000000|938e23bf-3951-4810-9834-4bab356dc12f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -168,10 +128,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|69000000|49500000|f1cf6dac-b573-4af9-a966-7e079612a4ce|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|71187500|124162499|1fca2369-0d2f-4ec9-a462-dde1a940d765|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -180,11 +136,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|80487500|72600000|b1b9a91e-7242-4075-a021-2aed22e41a2f|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|78400000|107500000|260bb103-e75d-46ee-820e-215f1d1c7e79|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|92000000|62000000|a35e3057-28f2-4426-9df5-e73ae6b75cf0|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|80487500|72600000|b1b9a91e-7242-4075-a021-2aed22e41a2f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -404,7 +360,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -1020,7 +976,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Kadin/Desktop/Git Projects/64-Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
+    "plot_directory": "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

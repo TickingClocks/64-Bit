@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "lib_footprint_issues|65500000|118900000|8e5a0754-3b34-4571-907a-5e075a46c6e3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "silk_over_copper|145186598|113034214|de4a2b2a-4bbb-4793-a3ec-caf990746b3a|00000000-0000-0000-0000-000000000000",
           ""
@@ -116,7 +112,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -1035,7 +1031,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Kadin/Desktop/Git Projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/Schematics/",
+    "plot_directory": "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
