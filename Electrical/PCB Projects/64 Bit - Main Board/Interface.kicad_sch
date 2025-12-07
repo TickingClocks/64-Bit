@@ -1407,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 156.972 101.6)
+			(xy 154.94 101.6) (xy 161.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 164.592 101.6) (xy 179.07 101.6)
+			(xy 168.91 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6045,7 +6045,7 @@
 			)
 		)
 		(property "Value" "10kohm_0603"
-			(at 87.63 156.718 90)
+			(at 87.63 156.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 160.782 101.6 90)
+		(at 165.1 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6380,7 +6380,7 @@
 		(dnp no)
 		(uuid "e6b86ebc-2aa3-43cf-b5b4-d076bdda8478")
 		(property "Reference" "R32"
-			(at 162.56 97.79 90)
+			(at 166.878 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6389,7 @@
 			)
 		)
 		(property "Value" "4.7kohm_0603"
-			(at 172.212 99.568 90)
+			(at 171.958 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.036 100.584 90)
+			(at 165.354 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.782 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.782 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

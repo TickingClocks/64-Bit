@@ -118,7 +118,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/Kadin/Desktop/Git Projects/64-Bit/Electrical/PCB Outputs/64 Bit - LED Board/gerbers/")
+			(outputdirectory "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - LED Board/Gerbers/")
 		)
 	)
 	(net 0 "")
