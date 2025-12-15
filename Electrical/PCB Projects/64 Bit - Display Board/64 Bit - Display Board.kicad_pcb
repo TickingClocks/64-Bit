@@ -797,6 +797,17 @@
 			(uuid "8f5b6dea-6bb3-4203-8073-bf6ba02d62b3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -806,17 +817,6 @@
 			)
 			(rotate
 				(xyz -0 180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -1062,119 +1062,9 @@
 			(uuid "2d6a7c64-67ae-402b-a771-46d171cafdc4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1196,13 +1086,123 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
 			)
 		)
 	)
@@ -1330,6 +1330,17 @@
 			(uuid "b4b94852-33de-4edb-8b42-e07034e02ae2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -1339,17 +1350,6 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -1420,7 +1420,7 @@
 			(uuid "a128e7df-ea19-4144-9016-9329b0ce8c86")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1674,131 +1674,9 @@
 			(uuid "06bd8f72-1170-437f-94c7-22023db2022c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12 Nixie Tube.STEP"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1820,7 +1698,129 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12 Nixie Tube.STEP"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1954,6 +1954,17 @@
 			(uuid "1dbed2cb-eed9-4846-aec7-8045b66dcf43")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -1963,17 +1974,6 @@
 			)
 			(rotate
 				(xyz -0 180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -2207,7 +2207,7 @@
 			(uuid "bfc715a6-74f5-4468-b9dc-cc65b72e4a94")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2343,6 +2343,17 @@
 			(uuid "641e0b66-f547-418a-906e-b5c991923950")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -2352,17 +2363,6 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -2490,6 +2490,17 @@
 			(uuid "33d2638a-7a2a-411f-b154-28c7f74c9f66")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -2499,17 +2510,6 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -5201,119 +5201,9 @@
 			(uuid "6d3b5c87-9d84-46c9-b742-b79d9c8b9a0e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5335,13 +5225,123 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
 			)
 		)
 	)
@@ -5587,119 +5587,9 @@
 			(uuid "77f34b92-ad4e-4365-ab89-7d8a5ed60b01")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5721,13 +5611,123 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
 			)
 		)
 	)
@@ -5855,6 +5855,17 @@
 			(uuid "08b3a6e7-30c6-4fd8-a97e-c2471cff3572")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/INS-1.STEP"
 			(offset
 				(xyz 0 0 30)
@@ -5864,17 +5875,6 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
-			)
-		)
-		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
-			(offset
-				(xyz 0 0 30)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -5945,7 +5945,7 @@
 			(uuid "ecaff1cc-4820-4f94-bba4-7e1c281b28e4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6362,119 +6362,9 @@
 			(uuid "a412444a-b965-4bdc-99f0-1bc267e428ae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6496,13 +6386,123 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
 			)
 		)
 	)
@@ -6748,119 +6748,9 @@
 			(uuid "00cf6863-05ae-4db7-8f7f-0545e846120c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
-			(offset
-				(xyz 0 0 31.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 90 0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 -9 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 3.9 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -4.1 -8 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.6 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 -4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -30)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 0 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 5.65 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz -5.85 4.5 -8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
-			(offset
-				(xyz 4 8 -8)
+				(xyz 0 9.25 -8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6882,13 +6772,123 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
 			(offset
-				(xyz 0 9.25 -8)
+				(xyz 4 8 -8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.65 0 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -30)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -5.85 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 5.6 -4.5 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz -4.1 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 3.9 -8 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/1mm vfd tube pin.iges"
+			(offset
+				(xyz 0 -9 -8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/IN-12A.igs"
+			(offset
+				(xyz 0 0 31.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 90 0)
 			)
 		)
 	)
@@ -7781,7 +7781,7 @@
 			(uuid "0d41860b-b127-4937-9d58-00284fc93219")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -7860,7 +7860,7 @@
 			(uuid "c55045d2-cf6e-4044-ae01-ad51a2c295ff")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -12084,17 +12084,6 @@
 			(uuid "5e7217cc-1f7a-402a-bb68-da884db8ed53")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/64 Bit LED Board.step"
-			(offset
-				(xyz 92.25 98.5 13)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 180 -0)
-			)
-		)
 		(model "${KIPRJMOD}/packages3D/PinSocket_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
@@ -12104,6 +12093,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/64 Bit LED Board.step"
+			(offset
+				(xyz 92.25 98.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
 			)
 		)
 	)

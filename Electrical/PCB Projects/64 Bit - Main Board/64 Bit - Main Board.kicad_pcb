@@ -6913,16 +6913,15 @@
 			(uuid "ce70e91f-e0e2-4640-b2a1-22b880f5bf0d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/61301021821.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/packages3D/64 Bit Display Board.step"
 			(offset
-				(xyz 0 0 1)
+				(xyz -144 -1.5 124)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -90 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/packages3D/61301021821 (rev1).stp"
@@ -6936,15 +6935,16 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/64 Bit Display Board.step"
+		(model "${KIPRJMOD}/packages3D/61301021821.stp"
+			(hide yes)
 			(offset
-				(xyz -144 -1.5 124)
+				(xyz 0 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -14758,7 +14758,7 @@
 			(uuid "6ae5fe37-f663-42aa-b7b7-24f8e910cfe5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz -5.5 8.25 -14)
 			)
@@ -18262,7 +18262,7 @@
 			(uuid "69ca9a08-8ebc-4cb9-a689-f14a98e2b8de")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz -5.5 8.25 -14)
 			)
@@ -21021,26 +21021,27 @@
 			(uuid "455d1c4d-f14e-4682-92e1-912e245c096c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/PinHeader_1x09_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/packages3D/ESP32-C6-LCD-1.47.stp"
 			(offset
-				(xyz 17.5 0 3)
+				(xyz 9 -8 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 -0)
+				(xyz -0 -0 180)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/PinHeader_1x09_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x09_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
-				(xyz 0 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 -0)
+				(xyz 0 0 0)
 			)
 		)
 		(model "${KIPRJMOD}/packages3D/PinSocket_1x09_P2.54mm_Vertical.step"
@@ -21055,27 +21056,26 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/PinSocket_1x09_P2.54mm_Vertical.step"
-			(hide yes)
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x09_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/ESP32-C6-LCD-1.47.stp"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x09_P2.54mm_Vertical.step"
 			(offset
-				(xyz 9 -8 7)
+				(xyz 17.5 0 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 180)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -27248,7 +27248,7 @@
 			(uuid "683632ef-820a-4944-be37-3569e0beae79")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz -5.5 8.25 -14.5)
 			)
@@ -28125,7 +28125,7 @@
 			(uuid "abd7ba4b-fff5-4a75-8580-0af78b69e5de")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz -5.5 8.25 -14)
 			)
@@ -28446,6 +28446,17 @@
 			(uuid "48c1d069-793c-48f6-9e13-8ed3849de859")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/EN12-VS11AF18.stp"
+			(offset
+				(xyz -2 5.5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -90 0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/EN12-VS20AF20.stp"
 			(hide yes)
 			(offset
@@ -28456,17 +28467,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/EN12-VS11AF18.stp"
-			(offset
-				(xyz -2 5.5 11.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -180 -90 0)
 			)
 		)
 	)
@@ -29955,6 +29955,17 @@
 			(uuid "3b1d8fc0-f0f3-4a30-985f-d934a1efe56a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/61301021821 (rev1).stp"
+			(offset
+				(xyz 5 1.25 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/61301021821.stp"
 			(hide yes)
 			(offset
@@ -29965,17 +29976,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/61301021821 (rev1).stp"
-			(offset
-				(xyz 5 1.25 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -30247,7 +30247,7 @@
 			(uuid "c6acf602-9f7a-439c-bf3a-e1e0de1a3edc")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+		(model "${KIPRJMOD}/packages3D/Standoff mf - M3 x 25 across flats 5.5mm.step"
 			(offset
 				(xyz -5.5 8.25 -14)
 			)
@@ -31091,10 +31091,9 @@
 			(uuid "a94b1c7b-0de2-4b9a-8a09-d9166e8970ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/61301021821.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/packages3D/61301021821 (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 5 1.25 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -31103,9 +31102,10 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/61301021821 (rev1).stp"
+		(model "${KIPRJMOD}/packages3D/61301021821.stp"
+			(hide yes)
 			(offset
-				(xyz 5 1.25 4.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51859,20 +51859,20 @@
 			(uuid "c966f4b4-fadc-4f56-96d2-f12093593ee3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/1x_Male_Pin_2.54_mm.STEP"
+		(model "${KIPRJMOD}/packages3D/XL6009.stp"
 			(offset
-				(xyz -0.25 0.25 -3)
+				(xyz 20.5 -9 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 -0 180)
 			)
 		)
 		(model "${KIPRJMOD}/packages3D/1x_Male_Pin_2.54_mm.STEP"
 			(offset
-				(xyz 39.75 0.25 -3)
+				(xyz -0.25 -17.25 -3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51894,7 +51894,7 @@
 		)
 		(model "${KIPRJMOD}/packages3D/1x_Male_Pin_2.54_mm.STEP"
 			(offset
-				(xyz -0.25 -17.25 -3)
+				(xyz 39.75 0.25 -3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51903,15 +51903,15 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/XL6009.stp"
+		(model "${KIPRJMOD}/packages3D/1x_Male_Pin_2.54_mm.STEP"
 			(offset
-				(xyz 20.5 -9 4)
+				(xyz -0.25 0.25 -3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 180)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -56426,15 +56426,15 @@
 			(uuid "671ae8a3-7377-47ff-afce-05376ec27922")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/1985195.stp"
+		(model "${KIPRJMOD}/packages3D/HV Power Supply.IGS"
 			(offset
-				(xyz 38.5 -2 0)
+				(xyz -25 -13.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/packages3D/1985195.stp"
@@ -56448,15 +56448,15 @@
 				(xyz -0 -0 90)
 			)
 		)
-		(model "${KIPRJMOD}/packages3D/HV Power Supply.IGS"
+		(model "${KIPRJMOD}/packages3D/1985195.stp"
 			(offset
-				(xyz -25 -13.5 5)
+				(xyz 38.5 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
