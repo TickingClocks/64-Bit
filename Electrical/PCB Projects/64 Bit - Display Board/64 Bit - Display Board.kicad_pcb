@@ -808,6 +808,17 @@
 				(xyz -0 180 -0)
 			)
 		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:IN-12"
 		(layer "F.Cu")
@@ -1330,6 +1341,17 @@
 				(xyz -0 -180 -0)
 			)
 		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:M3 Standoff Footprint"
 		(layer "F.Cu")
@@ -1398,6 +1420,17 @@
 			(uuid "a128e7df-ea19-4144-9016-9329b0ce8c86")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz 0 0 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:IN-12"
 		(layer "F.Cu")
@@ -1932,6 +1965,17 @@
 				(xyz -0 180 -0)
 			)
 		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Symbol:Symbol_HighVoltage_Triangle_8x7mm_Copper"
 		(layer "F.Cu")
@@ -2163,6 +2207,17 @@
 			(uuid "bfc715a6-74f5-4468-b9dc-cc65b72e4a94")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz 0 0 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:INS-1"
 		(layer "F.Cu")
@@ -2299,6 +2354,17 @@
 				(xyz -0 -180 -0)
 			)
 		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:INS-1"
 		(layer "F.Cu")
@@ -2433,6 +2499,17 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
+			)
+		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
 			)
 		)
 	)
@@ -5789,6 +5866,17 @@
 				(xyz -0 -180 -0)
 			)
 		)
+		(model "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Display Board/3D prints/ins-1 standoff/INS-1 standdoff_v1.STEP"
+			(offset
+				(xyz 0 0 30)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:M3 Standoff Footprint"
 		(layer "F.Cu")
@@ -5857,6 +5945,17 @@
 			(uuid "ecaff1cc-4820-4f94-bba4-7e1c281b28e4")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz 0 0 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Symbol:Symbol_HighVoltage_Triangle_8x7mm_Copper"
 		(layer "F.Cu")
@@ -7682,6 +7781,17 @@
 			(uuid "0d41860b-b127-4937-9d58-00284fc93219")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz 0 0 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:M3 Standoff Footprint"
 		(layer "F.Cu")
@@ -7750,6 +7860,17 @@
 			(uuid "c55045d2-cf6e-4044-ae01-ad51a2c295ff")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz 0 0 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "B.Cu")

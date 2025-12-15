@@ -532,7 +532,7 @@
       "plot": "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - LED Board/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../PCB Plots/PCB Steps/64 Bit LED Board.step",
+      "step": "../64 Bit - Display Board/packages3D/64 Bit LED Board.step",
       "svg": "",
       "vrml": ""
     },

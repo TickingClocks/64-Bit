@@ -14758,6 +14758,17 @@
 			(uuid "6ae5fe37-f663-42aa-b7b7-24f8e910cfe5")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz -5.5 8.25 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -18251,6 +18262,17 @@
 			(uuid "69ca9a08-8ebc-4cb9-a689-f14a98e2b8de")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz -5.5 8.25 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -27226,6 +27248,17 @@
 			(uuid "683632ef-820a-4944-be37-3569e0beae79")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz -5.5 8.25 -14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -28092,6 +28125,17 @@
 			(uuid "abd7ba4b-fff5-4a75-8580-0af78b69e5de")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz -5.5 8.25 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:EN12-VS20AF20"
 		(layer "F.Cu")
@@ -30203,6 +30247,17 @@
 			(uuid "c6acf602-9f7a-439c-bf3a-e1e0de1a3edc")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/kwhit/Downloads/Standoff mf - M3 x 25 across flats 5.5mm.step"
+			(offset
+				(xyz -5.5 8.25 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprint drive Dump 1:JS-12N-K"
 		(layer "F.Cu")
