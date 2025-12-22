@@ -2969,6 +2969,20 @@
 		)
 		(uuid "65085d38-0323-4094-bcf3-eb1ddd5fe7de")
 	)
+	(text "P-Channel not suitable try: \nSQ2389CES-T1_GE3\ndefault gate voltage must be 12V"
+		(exclude_from_sim no)
+		(at 120.904 105.41 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 46 77 1)
+			)
+			(justify left)
+		)
+		(uuid "8a1ee24f-32f7-492f-b41c-69f6f03bf95a")
+	)
 	(text "power selection and power switch"
 		(exclude_from_sim no)
 		(at 20.32 17.526 0)
@@ -2979,6 +2993,20 @@
 			(justify left)
 		)
 		(uuid "b914bff2-6bbb-4c6a-8159-84b80046e2a8")
+	)
+	(text "power switch doesnt\nhave enough room"
+		(exclude_from_sim no)
+		(at 50.292 35.56 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 46 77 1)
+			)
+			(justify left)
+		)
+		(uuid "be74a197-f57e-46af-bc69-aeafd94778ad")
 	)
 	(text "3.3V LDO"
 		(exclude_from_sim no)

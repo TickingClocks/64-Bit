@@ -2536,6 +2536,20 @@
 		)
 		(uuid "afe9d842-a8a0-49c9-b1df-fda364ab5dcc")
 	)
+	(text "P-Channel not suitable try: \nSQ2389CES-T1_GE3\ndefault gate voltage must be 12V"
+		(exclude_from_sim no)
+		(at 38.354 44.45 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 46 77 1)
+			)
+			(justify left)
+		)
+		(uuid "fd0cfd5f-cc0a-4105-abb2-8f8d29455272")
+	)
 	(junction
 		(at 107.95 107.95)
 		(diameter 0)
