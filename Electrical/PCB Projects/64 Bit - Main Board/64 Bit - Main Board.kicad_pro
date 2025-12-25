@@ -976,7 +976,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/kwhit/Desktop/projects/64-Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
+    "plot_directory": "G:/My Drive/Projects (GDrive)/31_My First Nixie Clock/00_Git Project/64-Bit/Electrical/PCB Outputs/64 Bit - Main Board/Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
